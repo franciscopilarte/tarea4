@@ -52,6 +52,18 @@ namespace tarea4
                 } while (CaAsi[i] < 0);
 
 
+                var universidad = new Universidad.Estudiante
+                {
+
+                    Nombre = CaNombre[i],
+                    SesionesT = CaTotal,
+                    SesionesA = CaAsi[i],
+
+                };
+
+
+                universidad.MostrarInformacion();
+
             }
         }
     }
