@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static tarea4.Universidad.Estudiante;
-using static tarea4.Universidad;
 
 namespace tarea4
 {
