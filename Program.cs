@@ -49,7 +49,7 @@ namespace tarea4
                         Console.WriteLine("Ingrese un numero Positivo");
                     }
 
-                } while (CaAsi[i] < 0);
+                } while (CaAsi[i] < 0 || CaAsi[i] > CaTotal);
 
 
                 var universidad = new Universidad.Estudiante
