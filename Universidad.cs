@@ -15,6 +15,17 @@ namespace tarea4
             public double SesionesT { get; set; } // Total de sesiones
             public double SesionesA { get; set; } // Asistencias
 
+            public class Asistencia
+            {
+                public static double Porcentaje(double asistencias, double totalSesiones)
+                {
+                    if (totalSesiones == 0)
+                    {
+                        return 0; // Evitar división por cero
+                    }
+                    return (asistencias / totalSesiones) * 100;
+                }
+            }
 
         }
 
