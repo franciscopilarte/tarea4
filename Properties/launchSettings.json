@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "tarea4": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
