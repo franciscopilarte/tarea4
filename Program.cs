@@ -13,7 +13,7 @@ namespace tarea4
 
             do
             {
-                Console.WriteLine("Ingrese la Asisitencia Total: ");
+                Console.WriteLine("Ingrese la Asistencia Total: ");
                 CaTotal = Convert.ToInt32(Console.ReadLine());
                 if (CaTotal < 0)
                 {
@@ -28,9 +28,31 @@ namespace tarea4
             Console.WriteLine();
 
             string[] CaNombre = new string[estudiante];
-            double[] CaAsis = new double[estudiante];
+            double[] CaAsi = new double[estudiante];
 
 
+            for (int i = 0; i < CaNombre.Length; i++)
+            {
+                Console.WriteLine();
+
+                Console.WriteLine($"Nombre del Estudiante {i + 1} ");
+                CaNombre[i] = Convert.ToString(Console.ReadLine());
+
+                do
+                {
+
+                    Console.WriteLine("Ingrese la Sesiones Asistida: ");
+                    CaAsi[i] = Convert.ToDouble(Console.ReadLine());
+                    if (CaAsi[i] < 0)
+                    {
+
+                        Console.WriteLine("Ingrese un numero Positivo");
+                    }
+
+                } while (CaAsi[i] < 0);
+
+
+            }
         }
     }
 }
