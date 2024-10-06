@@ -7,6 +7,10 @@ namespace tarea4
         public static void Main(string[] args)
         {
             
+
+
+
+
         }
     }
 }
