@@ -64,6 +64,14 @@ namespace tarea4
 
                 universidad.MostrarInformacion();
 
+         
+             }
+
+            Console.WriteLine();
+            Console.WriteLine("Los Nombre Ingresados Fueron: ");
+            foreach (var i in CaNombre)
+            {
+                Console.WriteLine(i);
             }
         }
     }
