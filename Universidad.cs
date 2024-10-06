@@ -11,9 +11,11 @@ namespace tarea4
 
         public class Estudiante
         {
+            public string Nombre { get; set; }
 
+            public double SesionesT {  get; set; }
 
-
+            public double SesionesA { get; set; }
 
         }
     }
